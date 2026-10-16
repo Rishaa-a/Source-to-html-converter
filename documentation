@@ -1,0 +1,24 @@
+RISHA A
+25040A_011
+
+SOURCE TO HTML:-
+
+This project converts a C source file into an HTML file with syntax highlighting. The main.c file handles file operations, parser.c reads the 
+source code character by character and identifies tokens like keywords, strings, numbers, comments, and preprocessor directives. Based on the 
+token type, it calls functions in html.c, which generate HTML tags with different colors. The list of C keywords is maintained in keywords.c,
+while style.h stores the HTML template and color definitions. Finally, the generated HTML file can be opened in a browser to view the source code 
+in a colorized, readable format
+
+Features
+
+Converts C source code to HTML.
+Syntax highlighting.
+Supports line numbers (-n option).
+Detects C keywords.
+Highlights comments.
+Highlights strings.
+Highlights numbers.
+Highlights character constants.
+Highlights preprocessor directives.
+Highlights header files.
+Uses a black background similar to a code editor.
